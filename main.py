@@ -18,9 +18,6 @@ def blink():
         arduino.write(b'0')
         time.sleep(1)
         n=n+1
-    else:
-        pass
-
 def turn_off():
     arduino.write(b'0')  # Send byte '0'
     print("LED turned OFF")
